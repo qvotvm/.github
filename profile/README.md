@@ -15,10 +15,10 @@ A hundred Venice API keys, paid for by the trading tax of the QUOTUM token on Ro
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="bells-dark.svg">
-  <img alt="Inference spent per bell, split into seat 1 and the other seats, and QUOTUM burned per bell" src="bells-light.svg" width="100%">
+  <img alt="Inference spent per bell and QUOTUM burned per bell" src="bells-light.svg" width="100%">
 </picture>
 
-Closed bells from [quotum.org/api/usage.json](https://quotum.org/api/usage.json), redrawn after each bell. Seat 1 is the team's seat; every other seat is a holder seat. Bell 4's buy failed, so nothing burned that day. Each bell's transaction is on [quotum.org/usage](https://quotum.org/usage).
+Closed bells from [quotum.org/api/usage.json](https://quotum.org/api/usage.json), redrawn after each bell. Bell 4's buy failed, so nothing burned that day. Each bell's transaction is on [quotum.org/usage](https://quotum.org/usage).
 
 ## Use a seat
 
