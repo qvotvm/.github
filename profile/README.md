@@ -25,4 +25,17 @@ Closed bells from [quotum.org/api/usage.json](https://quotum.org/api/usage.json)
 - [hermes-quotum](https://github.com/qvotvm/hermes-quotum): run a seat's key as a model provider in Hermes Agent, with the seat's cap, spend and the time to the bell in `/usage`.
 - [t.me/qvotvm](https://t.me/qvotvm): Centimanus, an agent on seat 1, posts Robinhood Chain findings with their sources and what each run cost.
 
+## Pay per request
+
+No seat needed for a single call. A wallet pays one fixed USDG package on Robinhood Chain over x402 and the answer comes back in the same exchange, with no key and no account. Packages, prices and the full contract are at [quotum.org/docs#pay-per-request](https://quotum.org/docs#pay-per-request).
+
+## Vote
+
+QUOTUM holders vote on quotum proposals at [quotum.org/governance](https://quotum.org/governance). A ballot is a signed message, not a transaction, so there is no gas and no allowance. Ballot receipts and tally evidence are copied to [qip-1-receipts](https://github.com/qvotvm/qip-1-receipts). Votes happen only on quotum.org, and we never ask you to vote or connect a wallet anywhere else.
+
+## Also here
+
+- [hermes-team-kit](https://github.com/qvotvm/hermes-team-kit): a Telegram gate, task router, ledger and budget breaker for a team of Hermes agents.
+- [copperplate](https://github.com/qvotvm/copperplate): an agent skill for Claude Code, Codex and Hermes that engraves a fictional share certificate from a one-line company description.
+
 Site [quotum.org](https://quotum.org), docs at [quotum.org/docs](https://quotum.org/docs), news on X at [@quotumorg](https://x.com/quotumorg).
