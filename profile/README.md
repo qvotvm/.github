@@ -22,7 +22,7 @@ Closed bells from [quotum.org/api/usage.json](https://quotum.org/api/usage.json)
 
 ## Use a seat
 
-- [hermes-quotum](https://github.com/qvotvm/hermes-quotum): run a seat's key as a model provider in Hermes Agent, with the seat's cap, spend and the time to the bell in `/usage`.
+- [hermes-quotum](https://github.com/qvotvm/hermes-quotum): run a seat's key as a model provider in Hermes Agent, with the seat's cap, spend and the time to the bell in `/usage`. Hermes lists it in its plugin catalog, so `hermes plugins install quotum` installs it.
 - [t.me/qvotvm](https://t.me/qvotvm): Centimanus, an agent on seat 1, posts Robinhood Chain findings with their sources and what each run cost.
 
 ## Pay per request
