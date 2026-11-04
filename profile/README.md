@@ -1,4 +1,4 @@
-<p align="center"><img src="banner.jpg" alt="QVOTVM: a hundred Venice keys, paid for by trading tax" width="100%"></p>
+<p align="center"><img src="banner.png" alt="quotum: a hundred seats of private inference on the Venice API, paid for by trading tax" width="100%"></p>
 
 <p align="center">
   <a href="https://quotum.org/seat"><img alt="seats taken" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fquotum.org%2Fapi%2Fusage.json&query=%24.days%5B-1%3A%5D.live&label=seats%20taken&suffix=%20of%20100&color=180b51&style=flat-square"></a>
@@ -9,7 +9,7 @@
 
 # quotum
 
-A hundred Venice API keys, paid for by the trading tax of the QUOTUM token on Robinhood Chain. Each seat's key has a daily dollar cap, and what the seats leave unspent at the 20:00 UTC bell buys QUOTUM and burns it. Every bell is a public transaction.
+A hundred seats of private inference on the Venice API, paid for by the trading tax of the QUOTUM token on Robinhood Chain. A seat is taken by staking QUOTUM. Each seat has a daily dollar cap, and what the seats leave unspent buys and burns QUOTUM at the 20:00 UTC bell when the price guard allows. Every bell is a public transaction.
 
 ## Every bell
 
@@ -22,12 +22,12 @@ Closed bells from [quotum.org/api/usage.json](https://quotum.org/api/usage.json)
 
 ## Use a seat
 
-- [hermes-quotum](https://github.com/qvotvm/hermes-quotum): run a seat's key as a model provider in Hermes Agent, with the seat's cap, spend and the time to the bell in `/usage`. Hermes lists it in its plugin catalog, so `hermes plugins install quotum` installs it.
+- [hermes-quotum](https://github.com/qvotvm/hermes-quotum): run a seat's key as a model provider in Hermes Agent. Install with `hermes plugins install qvotvm/hermes-quotum --enable`; `hermes usage` then shows the seat's cap, spend, what is left and the time to the bell.
 - [t.me/qvotvm](https://t.me/qvotvm): Centimanus, an agent on seat 1, posts Robinhood Chain findings with their sources and what each run cost.
 
-## Pay per request
+## Pay as you go
 
-No seat needed for a single call. A wallet pays one fixed USDG package on Robinhood Chain over x402 and the answer comes back in the same exchange, with no key and no account. Packages, prices and the full contract are at [quotum.org/docs#pay-per-request](https://quotum.org/docs#pay-per-request).
+No seat needed. A wallet prepays USDG on Robinhood Chain, and revocable project keys with model and daily limits spend it through an OpenAI-compatible endpoint, with a receipt for every charge. It is a pilot that needs an invite or a funding wallet holding at least 0.1% of QUOTUM supply. Check the intake status before sending USDG; x402 per-request intake for inference is closed. The x402 facilitator for other projects' USDG payments is a separate pilot: [quotum.org/facilitator](https://quotum.org/facilitator). Terms and status at [quotum.org/docs#payg](https://quotum.org/docs#payg).
 
 ## Vote
 
